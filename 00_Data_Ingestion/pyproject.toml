@@ -7,5 +7,7 @@ requires-python = ">=3.12"
 dependencies = [
     "langchain>=1.0.5",
     "langchain-community>=0.4.1",
+    "pymupdf>=1.26.6",
     "pypdf>=6.2.0",
+    "tqdm>=4.67.1",
 ]
