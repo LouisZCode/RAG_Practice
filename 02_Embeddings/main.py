@@ -39,3 +39,6 @@ vector_store = FAISS.from_documents(chunks, embeddings)
 
 print("Vector store created successfully!")
 print(f"Stored {len(chunks)} chunks")
+
+vector_store.save_local("my_vector_store")
+print("Vector store saved  successfully!")
