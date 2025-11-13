@@ -53,7 +53,7 @@ retriever_tool = create_retriever_tool(
 
 System_Prompt = """
 You are a internal model for the company.
-You alway use your retrieval_tool to find context before answering.
+You alway use your search_documents tool to find context before answering.
 You answer honestly, and if the context does not provide an answer, you let the user know."""
 
 
